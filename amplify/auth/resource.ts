@@ -9,8 +9,8 @@ export const auth = defineAuth({
     email: true,
 
     externalProviders: {
-      callbackUrls: ["http://localhost:3000/api/auth/sign-in-callback"],
-      logoutUrls: ["http://localhost:3000/api/auth/sign-out-callback"],
+      callbackUrls: ["https://main.dym1w6ciej86r.amplifyapp.com/api/auth/sign-in-callback"],
+      logoutUrls: ["https://main.dym1w6ciej86r.amplifyapp.com/api/auth/sign-out-callback"],
 
     },
   },
