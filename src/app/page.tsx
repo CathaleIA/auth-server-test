@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 
 export default function Home() {
@@ -6,12 +7,15 @@ export default function Home() {
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <h1>Testeando AUTH | COGNITO</h1>
         <p>Esta aplicacion esta siendo creada para el testo de la autentificacion desde el lado del servidor <span className="font-bold">SSR</span></p>
-        <a href="/api/auth/sign-in">
-          Sign In
-        </a>
-        <a href="/api/auth/sign-out">
+
+        <Link href="/api/auth/sign-in">
+        Sign In
+        </Link>
+
+        <Link href="/api/auth/sign-out">
           Sign Out
-        </a>
+        </Link>
+
       </main>
     </div>
   );
