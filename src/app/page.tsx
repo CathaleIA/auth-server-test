@@ -8,11 +8,17 @@ export default function Home() {
         <h1>Testeando AUTH | COGNITO</h1>
         <p>Esta aplicacion esta siendo creada para el testo de la autentificacion desde el lado del servidor <span className="font-bold">SSR</span></p>
 
-        <Link href="/api/auth/sign-in">
+        <Link href="/api/auth/sign-in"
+          target="_blank" // Abre en una nueva pestaña
+          rel="noopener noreferrer" // Buenas prácticas de seguridad
+        >
         Sign In
         </Link>
 
-        <Link href="/api/auth/sign-out">
+        <Link href="/api/auth/sign-out"
+          target="_blank" // Abre en una nueva pestaña
+          rel="noopener noreferrer" // Buenas prácticas de seguridad
+        >
           Sign Out
         </Link>
 
